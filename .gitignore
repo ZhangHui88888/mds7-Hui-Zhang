@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.idea/
+tmp/
+
+# Local working copies; clean deliverables live in the week folders or S3.
+downloaded_titanic.csv
+titanic_raw.csv
