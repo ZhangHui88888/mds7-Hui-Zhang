@@ -1,0 +1,24 @@
+{
+    "dataset": "sklearn_breast_cancer",
+    "selection_rule": "Highest accuracy; F1 Score used as tie-breaker",
+    "models": {
+        "logistic_regression": {
+            "model_type": "classical_machine_learning",
+            "accuracy": 0.9825,
+            "f1_score": 0.9861
+        },
+        "neural_network": {
+            "model_type": "deep_learning",
+            "accuracy": 0.9474,
+            "f1_score": 0.9571,
+            "epochs_completed": 38
+        }
+    },
+    "winner": {
+        "name": "logistic_regression",
+        "model_type": "classical_machine_learning",
+        "model_file": "best_model.pkl",
+        "accuracy": 0.9825,
+        "f1_score": 0.9861
+    }
+}
